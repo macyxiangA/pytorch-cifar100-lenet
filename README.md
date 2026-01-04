@@ -7,7 +7,6 @@ This repository contains a compact collection of PyTorch-based experiments focus
 
 The codebase is intentionally organized as a small research and experimentation workspace rather than a single monolithic project.
 
----
 
 ## Repository Structure
 
@@ -31,7 +30,6 @@ The codebase is intentionally organized as a small research and experimentation 
 
 Large datasets, checkpoints, and generated artifacts are intentionally excluded from version control via `.gitignore`.
 
----
 
 ## CIFAR-100 Image Classification
 
@@ -60,7 +58,6 @@ Optimizer: SGD with momentum
 
 The forward pass optionally records intermediate tensor shapes to assist with debugging dimension mismatches.
 
----
 
 ### Training
 
@@ -81,7 +78,6 @@ Checkpoints are saved to:
 ./outputs/
 ```
 
----
 
 ### Evaluation
 
@@ -96,7 +92,6 @@ python eval_cifar100.py --load outputs/model_best.pth.tar
 
 Evaluation reports classification accuracy on the CIFAR-100 test set.
 
----
 
 ## CIFAR-100 Dataset Handling
 
@@ -110,7 +105,6 @@ Behavior:
 
 No manual dataset preparation is required.
 
----
 
 ## Lightweight Language Modeling Experiments
 
@@ -145,7 +139,6 @@ nanoGPT/:
 - Training outputs and checkpoints are ignored
 ```
 
----
 
 ## Environment Requirements
 
@@ -160,7 +153,6 @@ datasets
 pandas
 ```
 
----
 
 ## Notes
 
@@ -171,7 +163,6 @@ pandas
 - Large files and generated artifacts are intentionally excluded from Git.
 ```
 
----
 
 ## License
 
