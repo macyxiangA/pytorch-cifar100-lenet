@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# CIFAR-100 data
+data/
+
+# Outputs / checkpoints
+outputs/
+distilgpt2_sft_cpu/
+nanoGPT/out*
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# OS
+.DS_Store
